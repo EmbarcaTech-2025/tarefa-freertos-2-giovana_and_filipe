@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Generated Cmake Pico project file
 
 cmake_minimum_required(VERSION 3.13)
@@ -10,8 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Initialise pico_sdk from installed location
 # (note this can come from environment, CMake cache etc)
 
-=======
->>>>>>> e01948fb52fa088e617046166754f0cfbf1053fd
+
 # == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
 if(WIN32)
     set(USERHOME $ENV{USERPROFILE})
@@ -26,7 +25,6 @@ if (EXISTS ${picoVscode})
     include(${picoVscode})
 endif()
 # ====================================================================================
-<<<<<<< HEAD
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
 # Name project
@@ -78,7 +76,7 @@ target_link_libraries(Tarefa_FreeRTOS
     )
 
 pico_add_extra_outputs(Tarefa_FreeRTOS)
-=======
+
 set(PICO_BOARD pico CACHE STRING "Board type")
 
 cmake_minimum_required(VERSION 3.12)
@@ -104,6 +102,7 @@ pico_sdk_init()
 
 add_executable(embarcatech-tarefa-freertos-2
     main.c
+    inc/ssd1306_i2c.c
 )
 
 target_include_directories(embarcatech-tarefa-freertos-2 PRIVATE
@@ -122,4 +121,3 @@ pico_add_extra_outputs(embarcatech-tarefa-freertos-2)
 # if you have anything in "lib" folder then uncomment below - remember to add a CMakeLists.txt
 # file to the "lib" directory
 #add_subdirectory(lib)
->>>>>>> e01948fb52fa088e617046166754f0cfbf1053fd
