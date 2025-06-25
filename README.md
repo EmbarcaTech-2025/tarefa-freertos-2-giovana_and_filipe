@@ -63,11 +63,12 @@ Inclua aqui:
 ## 📁 Estrutura do projeto
 ```
 ├── CMakeLists.txt
-├── main.c
+├── src/
+│   └── main.c
 ├── inc/
 │   └── ssd1306.h
-├── lib/
-│   └── ssd1306.c
+├── include/
+│   └── FreeRTOSConfig.h
 ├── build/
 └── README.md
 ```
