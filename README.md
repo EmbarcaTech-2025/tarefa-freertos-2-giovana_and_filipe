@@ -50,8 +50,10 @@ Criar uma aplicação que utilize:
 - `xSemaphoreCreateMutex()`
 
 ## 📸 Demonstração
-Inclua aqui:
 - **Vídeo curto** mostrando o funcionamento do sistema
+- 
+https://github.com/user-attachments/assets/b3dcd4be-f375-4eb0-8b38-9662f925a445
+
 
 
 ## 📁 Estrutura do projeto
