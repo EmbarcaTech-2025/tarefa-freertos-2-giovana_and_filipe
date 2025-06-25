@@ -49,16 +49,10 @@ Criar uma aplicação que utilize:
 - `xQueueCreate()`, `xQueueSend()`, `xQueueReceive()`
 - `xSemaphoreCreateMutex()`
 
-## ▶️ Execução
-1. Compile e grave o firmware na BitDogLab usando o VSCode + Pico SDK + FreeRTOS.
-2. Ligue a placa: a tela inicial aparece com a mensagem “PRESSIONE A PARA INICIAR”.
-3. Utilize o joystick e os botões conforme as instruções na tela.
-4. O alarme irá tocar nos horários cadastrados.
-
 ## 📸 Demonstração
 Inclua aqui:
-- Um **vídeo curto** mostrando o funcionamento do sistema
-- **Fotos** da BitDogLab com o display ligado em diferentes estados
+- **Vídeo curto** mostrando o funcionamento do sistema
+
 
 ## 📁 Estrutura do projeto
 ```
@@ -72,10 +66,6 @@ Inclua aqui:
 ├── build/
 └── README.md
 ```
-
-## 📎 Links
-- [Repositório do projeto no GitHub Classroom](https://classroom.github.com/a/8p5-fmLb)
-
 
 ---
 
